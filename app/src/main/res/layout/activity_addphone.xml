@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPhoneActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView android:id="@+id/PhoneNumbertitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CareTaker Phone Number"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue600"
+                android:layout_marginTop="8dp"/>
+
+            <EditText android:id="@+id/PhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/PhoneNumbertitle"
+                android:maxLength="12"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:gravity="center"
+                android:background="@drawable/blue_textfield_activated_holo_light"
+                android:hint="Insert First Number" />
+
+            <TextView android:id="@+id/usernametitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add new Username"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue600"
+                android:layout_below="@+id/PhoneNumber"
+                android:layout_marginTop="8dp"/>
+
+            <EditText android:id="@+id/Username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/usernametitle"
+                android:maxLength="12"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:gravity="center"
+                android:background="@drawable/blue_textfield_activated_holo_light"
+                android:hint="Insert new Username (optional)" />
+
+            <TextView android:id="@+id/passworditle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Password"
+                android:layout_below="@+id/Username"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue600"
+                android:layout_marginTop="8dp"/>
+
+            <EditText
+                android:id="@+id/Passwords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/passworditle"
+                android:background="@drawable/blue_textfield_activated_holo_light"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hint="Insert password"
+                android:maxLength="12"
+                android:singleLine="true"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <LinearLayout android:id="@+id/footer" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:layout_alignParentBottom="true" style="@android:style/ButtonBar"
+        android:background="#039be5">
+
+        <Button
+            android:id="@+id/btn_cancel_phone"
+            android:text="@string/str_btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="0.5"
+            android:textColor="#ffffff"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <View android:layout_height="fill_parent"
+            android:layout_width="2dp"
+            android:background="@color/blue400"/>
+
+        <Button
+            android:id="@+id/btn_set_phone"
+            android:text="Apply"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="0.5"
+            android:textColor="#ffffff"
+            style="?android:attr/borderlessButtonStyle"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+

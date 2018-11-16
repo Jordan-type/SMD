@@ -1,0 +1,66 @@
+{
+  "project_info": {
+    "project_number": "498094111636",
+    "firebase_url": "https://smart-medicine-dispenser.firebaseio.com",
+    "project_id": "smart-medicine-dispenser",
+    "storage_bucket": "smart-medicine-dispenser.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498094111636:android:959a7e6bd411b8cf",
+        "android_client_info": {
+          "package_name": "teamqitalach.pillapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498094111636-use6lfq2s0l2r0eb4g969j03e3stcsfv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teamqitalach.pillapp",
+            "certificate_hash": "7f5c42bdb76d08f67069aa6b0aaa482d40cb4f13"
+          }
+        },
+        {
+          "client_id": "498094111636-i6lp0mndfo6jh362fge2vtm4833l55o3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teamqitalach.pillapp",
+            "certificate_hash": "b356564a17257b8bb1b6d4ac63392b0c486b3db1"
+          }
+        },
+        {
+          "client_id": "498094111636-4i1ce07b10far4203s0rc6t0bds95rqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASDVRP1VnWEk7huyV0W1XIJce6BY0eURk"
+        },
+        {
+          "current_key": "AIzaSyDAW7dHeznCnnJmmETEw94M3tD7WSLcA1U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498094111636-4i1ce07b10far4203s0rc6t0bds95rqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
